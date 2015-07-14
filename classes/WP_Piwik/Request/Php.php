@@ -9,16 +9,16 @@
 			$url = self::$settings->getGlobalOption('piwik_url');
 			foreach (self::$requests as $requestID => $config) {
 				if (!isset(self::$results[$requestID])) {
-					$params = 'module=API&format=php&'.$this->buildURL($config, true);
+					$params = 'module=API&format=php&'.$this->buildURL($config);
 					$map[$count] = $requestID;
-					$result = $this->call($url, $params);
+					$result = $this->call($id, $url, $params);
 					self::$results[$map[$count]] = $result;
 					$count++;
 				}
 			}
 		}
 			
-		private function call($url, $params) {
+		private function call($id, $url, $params) {
 			if (!defined('PIWIK_INCLUDE_PATH'))
 				return;
 			if (PIWIK_INCLUDE_PATH === FALSE)
@@ -35,11 +35,12 @@
 			else serialize(array('result' => 'error', 'message' => __('Class Piwik\API\Request does not exists.','wp-piwik')));
 			if (isset($request))
 				$result = $request->process();
+			else $result = null;
 			if (!headers_sent())
 				header("Content-Type: text/html", true);
 			$result = $this->unserialize($result);
 			if ($GLOBALS ['wp-piwik_debug'])
-				array_unshift($result, $params.'&token_auth=...');
+				self::$debug[$id] = array ( $params.'&token_auth=...' );
 			return $result;
 		}
 	}

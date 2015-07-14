@@ -17,16 +17,18 @@
 					$count++;
 				}
 			}
-			$results = (function_exists('curl_init')?$this->curl($url, $params):$this->fopen($url, $params));
+			$results = ((function_exists('curl_init') && ini_get('allow_url_fopen') && self::$settings->getGlobalOption('http_connection') == 'curl') || (function_exists('curl_init') && !ini_get('allow_url_fopen')))?$this->curl($id, $url, $params):$this->fopen($id, $url, $params);
 			if (is_array($results))
 				foreach ($results as $num => $result)
 					self::$results[$map[$num]] = $result;
 		}
 			
-		private function curl($url, $params) {
-			$c = curl_init($url);
-			curl_setopt($c, CURLOPT_POST, 1);
-			curl_setopt($c, CURLOPT_POSTFIELDS, $params.'&token_auth='.self::$settings->getGlobalOption('piwik_token'));
+		private function curl($id, $url, $params) {
+			if (self::$settings->getGlobalOption('http_method')=='post') {
+				$c = curl_init($url);
+				curl_setopt($c, CURLOPT_POST, 1);
+				curl_setopt($c, CURLOPT_POSTFIELDS, $params.'&token_auth='.self::$settings->getGlobalOption('piwik_token'));
+			} else $c = curl_init($url.'?'.$params.'&token_auth='.self::$settings->getGlobalOption('piwik_token'));
 			curl_setopt($c, CURLOPT_SSL_VERIFYPEER, !self::$settings->getGlobalOption('disable_ssl_verify'));
 			curl_setopt($c, CURLOPT_USERAGENT, self::$settings->getGlobalOption('piwik_useragent')=='php'?ini_get('user_agent'):self::$settings->getGlobalOption('piwik_useragent_string'));
 			curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
@@ -45,22 +47,23 @@
 				$header = substr($result, 0, $header_size);
 				$body = substr($result, $header_size);
 				$result = $this->unserialize($body);
-				array_unshift($result[0], $header);
-				array_unshift($result[0], $url.'?'.$params.'&token_auth=...');
+				self::$debug[$id] = array ( $header, $url.'?'.$params.'&token_auth=...' );
 			} else $result = $this->unserialize($result);
 			curl_close($c);
 			return $result;
 		}
 
-		private function fopen($url, $params) {
-			$context = stream_context_create(array('http'=>array('timeout' => self::$settings->getGlobalOption('connection_timeout'))));		
-			$fullUrl = $url.'?'.$params.'&token_auth='.self::$settings->getGlobalOption('piwik_token');	
+		private function fopen($id, $url, $params) {
+			$contextDefinition = array('http'=>array('timeout' => self::$settings->getGlobalOption('connection_timeout')));
+			if (self::$settings->getGlobalOption('http_method')=='post') {
+				$fullUrl = $url;
+				$contextDefinition['http']['method'] = 'POST';
+				$contextDefinition['http']['content'] = $params.'&token_auth='.self::$settings->getGlobalOption('piwik_token');
+			} else $fullUrl = $url.'?'.$params.'&token_auth='.self::$settings->getGlobalOption('piwik_token');	
+			$context = stream_context_create($contextDefinition);
 			$result = $this->unserialize(@file_get_contents($fullUrl, false, $context));
-			if ($GLOBALS ['wp-piwik_debug']) {
-				$header = get_headers($fullUrl, 1);
-				array_unshift($result[0], $header);
-				array_unshift($result[0], $url.'?'.$params.'&token_auth=...');
-			}
+			if ($GLOBALS ['wp-piwik_debug'])
+				self::$debug[$id] = array ( get_headers($fullUrl, 1), $url.'?'.$params.'&token_auth=...' );
 			return $result;
 		}
 	}

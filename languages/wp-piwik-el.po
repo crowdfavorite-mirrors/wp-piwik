@@ -1,87 +1,87 @@
 # Copyright (C) 2015 WP-Piwik
 # This file is distributed under the same license as the WP-Piwik package.
 # Translators:
-# Andre Braekling <webmaster@braekling.de>, 2009
-# Hannes Bossuyt <hannesbossuyt@gmail.com>, 2015
+# Andr&eacute; Br&auml;kling <webmaster@braekling.de>, 2011
+# Vasilis Lourdas, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: WP-Piwik\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-piwik\n"
 "POT-Creation-Date: 2015-06-08 21:36:53+00:00\n"
-"PO-Revision-Date: 2015-06-09 21:03+0000\n"
-"Last-Translator: André Bräkling\n"
-"Language-Team: Dutch (Netherlands) (http://www.transifex.com/projects/p/wp-piwik/language/nl_NL/)\n"
+"PO-Revision-Date: 2015-06-09 09:37+0000\n"
+"Last-Translator: Vasilis Lourdas\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/wp-piwik/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl_NL\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: classes/WP_Piwik/Admin/Settings.php:24
 msgid "Reload"
-msgstr "Herlaad"
+msgstr "Επαναφόρτωση"
 
 #: classes/WP_Piwik/Admin/Settings.php:27
 msgid "Changes saved."
-msgstr "Wijzigingen bewaard."
+msgstr "Οι αλλαγές αποθηκεύθηκαν."
 
 #: classes/WP_Piwik/Admin/Settings.php:45
 msgid "Save Changes"
-msgstr "Bewaar wijzigingen"
+msgstr "Αποθήκευση αλλαγών"
 
 #: classes/WP_Piwik/Admin/Settings.php:46
 msgid "Thanks for using WP-Piwik!"
-msgstr "Bedankt om WP-Piwik te gebruiken!"
+msgstr "Ευχαριστούμε που χρησιμοποιείτε το WP-Piwik!"
 
 #: classes/WP_Piwik/Admin/Settings.php:50
 msgid "WP-Piwik %s is successfully connected to Piwik %s."
-msgstr "WP-Piwik %s is succesvol geconnecteerd  met piwik %s."
+msgstr "Το WP-Piwik %s συνδέθηκε με επιτυχία στο Piwik %s."
 
 #: classes/WP_Piwik/Admin/Settings.php:50
 msgid "You are running WordPress %s."
-msgstr "Je gebruikt Wordpress %s."
+msgstr "Τρέχετε το WordPress %s."
 
 #: classes/WP_Piwik/Admin/Settings.php:50
 msgid ""
 "You are running a WordPress %s blog network (WPMU). WP-Piwik will handle "
 "your sites as different websites."
-msgstr "Je draait een Wordpress %s blog netwerk (WPMU). WP-Piwik zal je sites behandelen als verschillende websites."
+msgstr "Τρέχετε ένα δίκτυο ιστολογίων (WPMU) WordPress %s. Το WP-Piwik θα χειρίζεται όλους τους ιστοτόπους σας ως διαφορετικούς."
 
 #: classes/WP_Piwik/Admin/Settings.php:53
 msgid ""
 "WP-Piwik %s was not able to connect to Piwik using your configuration. Check"
 " the &raquo;Connect to Piwik&laquo; section below."
-msgstr ""
+msgstr "Το WP-Piwik %s δεν μπόρεσε να συνδεθεί με το Piwik χρησιμοποιώντας τις ρυθμίσεις σας. Δείτε την παρακάτω παράγραφο %raquo;Σύνδεση με το Piwik&laquo;."
 
 #: classes/WP_Piwik/Admin/Settings.php:56
 msgid ""
 "WP-Piwik %s has to be connected to Piwik first. Check the &raquo;Connect to "
 "Piwik&laquo; section below."
-msgstr ""
+msgstr "Το WP-Piwik %s πρέπει να συνδεθεί πρώτα με το Piwik. Ελέγξτε το τμήμα &raquo;Σύνδεση με το Piwik&laquo; παρακάτω."
 
 #: classes/WP_Piwik/Admin/Settings.php:60
 msgid "Connect to Piwik"
-msgstr "Verbind met Piwik"
+msgstr "Σύνδεση με το Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:65
 msgid "Show Statistics"
-msgstr "Toon statistieken."
+msgstr "Εμφάνιση στατιστικών"
 
 #: classes/WP_Piwik/Admin/Settings.php:69
 msgid "Enable Tracking"
-msgstr "Schakel tracking in."
+msgstr "Ενεργοποίηση παρακολούθησης"
 
 #: classes/WP_Piwik/Admin/Settings.php:74
 msgid "Expert Settings"
-msgstr "Exporteer instellingen."
+msgstr "Ρυθμίσεις για προχωρημένους"
 
 #: classes/WP_Piwik/Admin/Settings.php:78 classes/WP_Piwik.php:919
 msgid "Support"
-msgstr "Ondersteuning."
+msgstr "Υποστήριξη"
 
 #: classes/WP_Piwik/Admin/Settings.php:82
 msgid "Credits"
-msgstr "Dank aan"
+msgstr "Συντελεστές"
 
 #: classes/WP_Piwik/Admin/Settings.php:95
 msgid ""
@@ -89,75 +89,75 @@ msgid ""
 "WordPress admin dashboard and to add and configure your Piwik tracking code."
 " To use this you will need your own Piwik instance. If you do not already "
 "have a Piwik setup, you have two simple options: use either"
-msgstr ""
+msgstr "Το WP-Piwik είναι ένα πρόσθετο για το WordPress για να εμφανίζει μια επιλογή από στατιστικά του Piwik στον πίνακα διαχείρισης του WordPress και για να προσθέτετε και παραμετροποιείτε τον κώδικα παρακολούθησης του Piwik. Αν δεν έχετε ήδη κάποια εγκατάσταση του Piwik, έχετε δύο απλές επιλογές: να χρησιμοποιήσετε είτε"
 
 #: classes/WP_Piwik/Admin/Settings.php:95
 msgid "Self-hosted"
-msgstr "Zelf gehoste"
+msgstr "Φιλοξενία σε εσάς"
 
 #: classes/WP_Piwik/Admin/Settings.php:95
 msgid "or"
-msgstr "of"
+msgstr "ή"
 
 #: classes/WP_Piwik/Admin/Settings.php:95
 msgid "Cloud-hosted"
-msgstr "Cloud gehoste"
+msgstr "Φιλοξενία στο σύννεφο"
 
 #: classes/WP_Piwik/Admin/Settings.php:98
 msgid ""
 "Neither cURL nor fopen are available. So WP-Piwik can not use the HTTP API "
 "and not connect to Piwik Pro."
-msgstr "Zowel cURL als fopen zijn niet beschikbaar. WP-Piwik kan dus geen gebruik maken van de HTTP API of verbinden met Piwik Pro."
+msgstr "Είτε το cURL είτε η fopen δεν είναι διαθέσιμα. Έτσι, το WP-Piwik δεν μπορεί να χρησιμοποιήσει το HTTP API και να συνδεθεί με το Piwik Pro."
 
 #: classes/WP_Piwik/Admin/Settings.php:98
 #: classes/WP_Piwik/Template/MetaBoxCustomVars.php:30
 msgid "More information"
-msgstr "Meer informatie"
+msgstr "Περισσότερες πληροφορίες"
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 msgid "You can choose between three connection methods:"
-msgstr "Je kunt kiezen tussen 3 connectie methoden:"
+msgstr "Μπορείτε να επιλέξετε μεταξύ των τριών τρόπων σύνδεσης:"
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 #: classes/WP_Piwik/Admin/Settings.php:103
 msgid "Self-hosted (HTTP API, default)"
-msgstr "Lokale installatie (HTTP API, standaard)"
+msgstr "Φιλοξενία σε εσάς (HTTP API, εξ' ορισμού)"
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 msgid ""
 "This is the default option for a self-hosted Piwik and should work for most "
 "configurations. WP-Piwik will connect to Piwik using http(s)."
-msgstr ""
+msgstr "Αυτή είναι η προκαθορισμένη επιλογή για Piwik που φιλοξενείται σε εσάς και αναμένεται να δουλέψει για τις περισσότερες εγκαταστάσεις. Το WP-Piwik θα συνδεθεί με το Piwik με χρήση http(s)."
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 #: classes/WP_Piwik/Admin/Settings.php:104
 msgid "Self-hosted (PHP API)"
-msgstr "Zelf gehost (PHP-API)"
+msgstr "Φιλοξενία σε εσάς (PHP API)"
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 msgid ""
 "Choose this, if your self-hosted Piwik and WordPress are running on the same"
 " machine and you know the full server path to your Piwik instance."
-msgstr ""
+msgstr "Επιλέξτε αυτή την επιλογή, αν το Piwik που φιλοξενείται σε εσάς και το WordPress εκτελούνται στον ίδιο διακομιστή και γνωρίζετε την πλήρη διαδρομή για το στιγμιότυπο του Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 #: classes/WP_Piwik/Admin/Settings.php:105
 msgid "Cloud-hosted (Piwik Pro)"
-msgstr ""
+msgstr "Φιλοξενία στο σύννεφο (Piwik Pro)"
 
 #: classes/WP_Piwik/Admin/Settings.php:100
 msgid ""
 "If you are using a cloud-hosted Piwik by Piwik Pro, you can simply use this "
 "option."
-msgstr ""
+msgstr "Αν χρησιμοποιείτε μια έκδοση του Piwik που παρέχεται από το σύννεφο από το Piwik Pro, μπορείτε να χρησιμοποιήσετε απλά αυτή την επιλογή."
 
 #: classes/WP_Piwik/Admin/Settings.php:101
 msgid "Piwik Mode"
-msgstr ""
+msgstr "Κατάσταση του Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:102
 msgid "Disabled (WP-Piwik will not connect to Piwik)"
-msgstr ""
+msgstr "Ανενεργό (το WP-Piwik δεν συνδέεται με το Piwik)"
 
 #: classes/WP_Piwik/Admin/Settings.php:108
 msgid "Piwik URL"
@@ -167,108 +167,108 @@ msgstr "Piwik URL"
 msgid ""
 "Enter your Piwik URL. This is the same URL you use to access your Piwik "
 "instance, e.g. http://www.example.com/piwik/."
-msgstr ""
+msgstr "Εισάγετε τη διεύθυνση URL του Piwik. Αυτή είναι η ίδια διεύθυνση URL που χρησιμοποιείτε για να προσπελάσετε το στιγμιότυπο Piwik σας, πχ. http://www.example.com/piwik/."
 
 #: classes/WP_Piwik/Admin/Settings.php:109
 msgid "Piwik path"
-msgstr "Piwik pad"
+msgstr "Διαδρομή του Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:109
 msgid "Enter the file path to your Piwik instance, e.g. /var/www/piwik/."
-msgstr ""
+msgstr "Εισάγετε την πλήρη διαδρομή για το στιγμιότυπο του Piwik σας, πχ. /var/www/piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:110
 msgid "Piwik user"
-msgstr "Piwik gebruiker."
+msgstr "Χρήστης του Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:110
 msgid ""
 "Enter your Piwik Pro username. It is also part of your URL: "
 "http://USERNAME.piwik.pro."
-msgstr ""
+msgstr "Εισάγετε το όνομα χρήστη για το Piwik Pro. Αυτό αποτελεί επίσης μέρος και της διεύθυνσης URL: http://USERNAME.piwik.pro."
 
 #: classes/WP_Piwik/Admin/Settings.php:111
 msgid "Auth token"
-msgstr "Auth token"
+msgstr "Σύμβολο γνησιότητας"
 
 #: classes/WP_Piwik/Admin/Settings.php:111
 msgid ""
 "Enter your Piwik auth token here. It is an alphanumerical code like "
 "0a1b2c34d56e78901fa2bc3d45678efa."
-msgstr ""
+msgstr "Εισάγετε εδώ τον κωδικό πιστοποίησης του Piwik. Είναι ένας αλφαριθμητικός κωδικός σαν το 0a1b2c34d56e78901fa2bc3d45678efa."
 
 #: classes/WP_Piwik/Admin/Settings.php:111
 msgid "See %sWP-Piwik FAQ%s."
-msgstr "Zie %WP-Piwik FAQ%s."
+msgstr "Δείτε τις %sΣυχνές ερωταπαντήσεις του WP-Piwik%s."
 
 #: classes/WP_Piwik/Admin/Settings.php:116
 msgid "Auto config"
-msgstr "Auto config"
+msgstr "Αυτόματη ρύθμιση"
 
 #: classes/WP_Piwik/Admin/Settings.php:116
 msgid ""
 "Check this to automatically choose your blog from your Piwik sites by URL. "
 "If your blog is not added to Piwik yet, WP-Piwik will add a new site."
-msgstr ""
+msgstr "Επιλέξτε αυτό για να γίνεται αυτόματη επιλογή του ιστολογίου σας από τους ιστοτόπους σας του Piwik με τη διεύθυνση URL. Αν το ιστολόγιό σας δεν έχει προστεθεί ακόμη, το WP-Piwik θα προσθέσει αυτόματα ένα νέο ιστοτόπο."
 
 #: classes/WP_Piwik/Admin/Settings.php:127
 msgid "Determined site"
-msgstr ""
+msgstr "Ιστοτόπος που εντοπίστηκε"
 
 #: classes/WP_Piwik/Admin/Settings.php:132
 msgid "Select site"
-msgstr "Selecteer site"
+msgstr "Επιλέξτε ιστοτόπο"
 
 #: classes/WP_Piwik/Admin/Settings.php:140
 msgid "Piwik default date"
-msgstr "Piwik standaard datum"
+msgstr "Προκαθορισμένη ημερομηνία Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:141
 #: classes/WP_Piwik/Admin/Settings.php:154
 msgid "Today"
-msgstr "Vandaag"
+msgstr "Σήμερα"
 
 #: classes/WP_Piwik/Admin/Settings.php:142
 #: classes/WP_Piwik/Admin/Settings.php:153
 msgid "Yesterday"
-msgstr "Gisteren"
+msgstr "Εχθές"
 
 #: classes/WP_Piwik/Admin/Settings.php:143
 msgid "Current month"
-msgstr "Huidige maand"
+msgstr "Τρέχων μήνας"
 
 #: classes/WP_Piwik/Admin/Settings.php:144
 msgid "Last month"
-msgstr "Vorige maand"
+msgstr "Προηγούμενος μήνας"
 
 #: classes/WP_Piwik/Admin/Settings.php:145
 msgid "Current week"
-msgstr "Huidige week"
+msgstr "Τρέχουσα εβδομάδα"
 
 #: classes/WP_Piwik/Admin/Settings.php:146
 msgid "Last week"
-msgstr "Vorige week"
+msgstr "Προηγούμενη εβδομάδα"
 
 #: classes/WP_Piwik/Admin/Settings.php:147
 msgid "Default date shown on statistics page."
-msgstr "Standaard datum die wordt weergegeven op statistieken pagina."
+msgstr "Προεπιλεγμένη ημερομηνία που αναγράφεται στη σελίδα των στατιστικών."
 
 #: classes/WP_Piwik/Admin/Settings.php:149
 msgid "Show SEO data"
-msgstr "Toon SEO data"
+msgstr "Εμφάνιση των δεδομένων SEO"
 
 #: classes/WP_Piwik/Admin/Settings.php:149
 msgid "Display SEO ranking data on statistics page."
-msgstr ""
+msgstr "Εμφάνιση των δεδομένων κατάταξης SEO στη σελίδα στατιστικών."
 
 #: classes/WP_Piwik/Admin/Settings.php:149
 #: classes/WP_Piwik/Admin/Settings.php:160
 msgid "Slow!"
-msgstr "Traag!"
+msgstr "Αργό!"
 
 #: classes/WP_Piwik/Admin/Settings.php:151
 msgid "Dashboard overview"
-msgstr "Dashboard overzicht"
+msgstr "Σύνοψη πίνακα"
 
 #: classes/WP_Piwik/Admin/Settings.php:152
 #: classes/WP_Piwik/Admin/Settings.php:190
@@ -276,213 +276,213 @@ msgstr "Dashboard overzicht"
 #: classes/WP_Piwik/Admin/Settings.php:213
 #: classes/WP_Piwik/Admin/Settings.php:302
 msgid "Disabled"
-msgstr "Uitgeschakeld"
+msgstr "Ανενεργό"
 
 #: classes/WP_Piwik/Admin/Settings.php:155
 msgid "Last 30 days"
-msgstr "Laatste 30 dagen"
+msgstr "Προηγούμενες 30 ημέρες"
 
 #: classes/WP_Piwik/Admin/Settings.php:156
 msgid "Enable WP-Piwik dashboard widget &quot;Overview&quot;."
-msgstr ""
+msgstr "Ενεργοποίηση της &quot;Σύνοψης&quot; του πίνακα του γραφικού συστατικού WP-Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:158
 msgid "Dashboard graph"
-msgstr "Dashboard grafiek"
+msgstr "Γράφημα πίνακα"
 
 #: classes/WP_Piwik/Admin/Settings.php:158
 msgid "Enable WP-Piwik dashboard widget &quot;Graph&quot;."
-msgstr ""
+msgstr "Ενεργοποίηση του &quot;γραφικού&quot; συστατικού πίνακα του WP-Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:160
 msgid "Dashboard SEO"
-msgstr "Dashboard SEO"
+msgstr "SEO πίνακα"
 
 #: classes/WP_Piwik/Admin/Settings.php:160
 msgid "Enable WP-Piwik dashboard widget &quot;SEO&quot;."
-msgstr "Schakel WP-Piwik dashboard widget &quot;SEO&quot; in."
+msgstr "Ενεργοποίηση του γραφικού συστατικού &quot;SEO&quot; του πίνακα ελέγχου του WP-Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:162
 msgid "Show graph on WordPress Toolbar"
-msgstr "Toon grafiek op de WordPress Toolbar"
+msgstr "Εμφάνιση γραφήματος στην μπάρα εργαλείων του WordPress"
 
 #: classes/WP_Piwik/Admin/Settings.php:162
 msgid "Display a last 30 days visitor graph on WordPress' toolbar."
-msgstr ""
+msgstr "Εμφάνιση του γραφήματος επισκέψεων για τις τελευταίες 30 ημέρες στην μπάρα εργαλείων του WordPress."
 
 #: classes/WP_Piwik/Admin/Settings.php:164
 msgid "Display stats to"
-msgstr "Toon statistieken aan"
+msgstr "Εμφάνιση στατιστικών σε"
 
 #: classes/WP_Piwik/Admin/Settings.php:171
 msgid "Choose user roles allowed to see the statistics page."
-msgstr ""
+msgstr "Επιλέξτε τους ρόλους χρηστών, οι οποίοι επιτρέπεται να βλέπουν τα στατιστικά."
 
 #: classes/WP_Piwik/Admin/Settings.php:173
 msgid "Show per post stats"
-msgstr "Toon per post statistieken"
+msgstr "Εμφάνιση στατιστικών ανά καταχώρηση"
 
 #: classes/WP_Piwik/Admin/Settings.php:173
 msgid "Show stats about single posts at the post edit admin page."
-msgstr ""
+msgstr "Εμφάνιση στατιστικών για μεμονωμένες καταχωρήσεις στη σελίδα διαχείρισης της καταχώρησης."
 
 #: classes/WP_Piwik/Admin/Settings.php:175
 msgid "Piwik shortcut"
-msgstr "Piwik snelkoppeling"
+msgstr "Συντόμευση Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:175
 msgid "Display a shortcut to Piwik itself."
-msgstr "Toon een shortcut van Piwik naar zichzelf."
+msgstr "Εμφάνιση μιας συντόμευσης προς Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:177
 msgid "WP-Piwik display name"
-msgstr "WP-Piwik weergegeven naam"
+msgstr "Εμφανιζόμενο όνομα WP-Piwik"
 
 #: classes/WP_Piwik/Admin/Settings.php:177
 msgid "Plugin name shown in WordPress."
-msgstr "Plugin naam die wordt weergegeven in WordPress."
+msgstr "Το όνομα του πρόσθετου που θα εμφανίζεται στο WordPress."
 
 #: classes/WP_Piwik/Admin/Settings.php:179
 msgid "Enable shortcodes"
-msgstr "Schakel shortcodes in"
+msgstr "Ενεργοποίηση σύντομων κωδικών"
 
 #: classes/WP_Piwik/Admin/Settings.php:179
 msgid "Enable shortcodes in post or page content."
-msgstr "Schakel shortcodes in voor de inhoud van posts en reacties."
+msgstr "Ενεργοποίηση σύντομων κωδικών στο περιεχόμενο καταχωρήσεων ή σελίδων."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid "You can choose between four tracking code modes:"
-msgstr ""
+msgstr "Μπορείτε να επιλέξετε μεταξύ τεσσάρων καταστάσεων κωδικών παρακολούθησης:"
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid ""
 "WP-Piwik will not add the tracking code. Use this, if you want to add the "
 "tracking code to your template files or you use another plugin to add the "
 "tracking code."
-msgstr ""
+msgstr "Το WP-Piwik δεν θα προσθέσει τον κώδικα παρακολούθησης. Χρησιμοποιήστε το αυτό, αν θέλετε να προσθέτετε τον κώδικα παρακολούθησης στα αρχεία προτύπων ή χρησιμοποιείτε κάποιο άλλο πρόσθετο για την προσθήκη του κώδικα."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 #: classes/WP_Piwik/Admin/Settings.php:193
 msgid "Default tracking"
-msgstr "Standaard tracking."
+msgstr "Προκαθορισμένη παρακολούθηση"
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid "WP-Piwik will use Piwik's standard tracking code."
-msgstr "WP-Piwik gebruikt Piwik's standaard tracking code."
+msgstr "Το WP-Piwik θα χρησιμοποιήσει τον προκαθορισμένο κώδικα παρακολούθησης του Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 #: classes/WP_Piwik/Admin/Settings.php:194
 msgid "Use js/index.php"
-msgstr "Gebruik js/index.php"
+msgstr "Χρήση του js/index.php"
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid ""
 "You can choose this tracking code, to deliver a minified proxy code and to "
 "avoid using the files called piwik.js or piwik.php."
-msgstr ""
+msgstr "Μπορείτε να επιλέξετε αυτό τον κώδικα παρακολούθησης, για να παρέχετε ένα ελαχιστοποιημένο σε μέγεθος κώδικα μεσολαβητή και να αποφύγετε την χρήση των αρχείων piwik.js ή piwik.php."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid "See %sreadme file%s."
-msgstr "Toon %sleesmij bestand%s."
+msgstr "Δείτε το %sαρχείο readme%s."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 #: classes/WP_Piwik/Admin/Settings.php:195
 msgid "Use proxy script"
-msgstr "Gebruik proxy script"
+msgstr "Χρήση σεναρίου διαμεσολαβητή"
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid "Use this tracking code to not reveal the Piwik server URL."
-msgstr ""
+msgstr "Χρησιμοποιήστε αυτό τον κώδικα παρακολούθησης για να μην αποκαλύπτετε τη διεύθυνση URL του Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 #: classes/WP_Piwik/Admin/Settings.php:210
 #: classes/WP_Piwik/Admin/Settings.php:220
 msgid "See %sPiwik FAQ%s."
-msgstr "Zie de %sPiwik FAQ%s."
+msgstr "Δείτε τις %sσυχνές ερωταπαντήσεις του Piwik%s."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 #: classes/WP_Piwik/Admin/Settings.php:196
 msgid "Enter manually"
-msgstr "Voer manueel in."
+msgstr "Εισάγετε χειροκίνητα"
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid ""
 "Enter your own tracking code manually. You can choose one of the prior "
 "options, pre-configure your tracking code and switch to manually editing at "
 "last."
-msgstr ""
+msgstr "Εισάγετε μόνοι σας τον κώδικα παρακολούθησης. Μπορείτε να επιλέξετε μία από τις προηγούμενες επιλογές, να προρυθμίσετε τον κώδικά σας και τέλος να μεταβείτε σε κατάσταση επεξεργασίας."
 
 #: classes/WP_Piwik/Admin/Settings.php:190
 msgid "Use the placeholder {ID} to add the Piwik site ID."
-msgstr ""
+msgstr "Χρήση του κωδικού (ID) για την προσθήκη του αναγνωριστικού ιστοτόπου του Piwik."
 
 #: classes/WP_Piwik/Admin/Settings.php:191
 msgid "Add tracking code"
-msgstr "Voeg tracking code toe."
+msgstr "Προσθήκη κώδικα παρακολούθησης"
 
 #: classes/WP_Piwik/Admin/Settings.php:199
 msgid "Tracking code"
-msgstr "Tracking code"
+msgstr "Κώδικας παρακολούθησης"
 
 #: classes/WP_Piwik/Admin/Settings.php:201
 msgid "JavaScript code position"
-msgstr "Javascript code positie"
+msgstr "Θέση του κώδικα JavaScript"
 
 #: classes/WP_Piwik/Admin/Settings.php:202
 msgid "Footer"
-msgstr "Voettekst"
+msgstr "Υποσέλιδο"
 
 #: classes/WP_Piwik/Admin/Settings.php:203
 msgid "Header"
-msgstr "Koptekst"
+msgstr "Κεφαλίδα"
 
 #: classes/WP_Piwik/Admin/Settings.php:204
 msgid ""
 "Choose whether the JavaScript code is added to the footer or the header."
-msgstr ""
+msgstr "Επιλέξτε αν ο κώδικας JavaScript θα προστίθεται στο υποσέλιδο ή την κεφαλίδα."
 
 #: classes/WP_Piwik/Admin/Settings.php:206
 msgid "Noscript code"
-msgstr "Noscript code"
+msgstr "Κώδικας noscript"
 
 #: classes/WP_Piwik/Admin/Settings.php:208
 msgid "Add &lt;noscript&gt;"
-msgstr "Voeg &lt;noscript&gt; toe."
+msgstr "Προσθήκη του &lt;noscript&gt;"
 
 #: classes/WP_Piwik/Admin/Settings.php:208
 msgid "Adds the &lt;noscript&gt; code to your footer."
-msgstr ""
+msgstr "Προσθέτει τον κώδικα &lt;noscript&gt; στο υποσέλιδο."
 
 #: classes/WP_Piwik/Admin/Settings.php:208
 #: classes/WP_Piwik/Admin/Settings.php:210
 msgid "Disabled in proxy mode."
-msgstr "Uitgeschakeld in proxy mode."
+msgstr "Απενεργοποιημένο σε κατάσταση διαμεσολαβητή."
 
 #: classes/WP_Piwik/Admin/Settings.php:210
 msgid "Add rec parameter to noscript code"
-msgstr ""
+msgstr "Προσθήκη παραμέτρου rec στον κώδικα noscript"
 
 #: classes/WP_Piwik/Admin/Settings.php:210
 msgid "Enable tracking for visitors without JavaScript (not recommended)."
-msgstr ""
+msgstr "Να ενεργοποιηθεί η παρακολούθηση για επισκέπτες χωρίς JavaScript (δεν προτείνεται)."
 
 #: classes/WP_Piwik/Admin/Settings.php:212
 msgid "Enable content tracking"
-msgstr "Schakel content tracking in."
+msgstr "Ενεργοποίηση παρακολούθησης περιεχομένου"
 
 #: classes/WP_Piwik/Admin/Settings.php:214
 msgid "Track all content blocks"
-msgstr ""
+msgstr "Να παρακολουθούνται όλα τα μπλοκ περιεχομένου"
 
 #: classes/WP_Piwik/Admin/Settings.php:215
 msgid "Track only visible content blocks"
-msgstr ""
+msgstr "Να παρακολουθούνται μόνο τα ορατά μπλοκ"
 
 #: classes/WP_Piwik/Admin/Settings.php:216
 msgid ""
 "Content tracking allows you to track interaction with the content of a web "
 "page or application."
-msgstr ""
+msgstr "Η παρακολούθηση περιεχομένου σας επιτρέπει να παρακολουθείτε την αλληλεπίδραση με το περιεχόμενο μιας ιστοσελίδας ή εφαρμογής."
 
 #: classes/WP_Piwik/Admin/Settings.php:216
 #: classes/WP_Piwik/Admin/Settings.php:218
@@ -492,110 +492,110 @@ msgstr ""
 #: classes/WP_Piwik/Admin/Settings.php:247
 #: classes/WP_Piwik/Admin/Settings.php:249
 msgid "See %sPiwik documentation%s."
-msgstr ""
+msgstr "Δείτε την %sτεκμηρίωση του Piwik%s."
 
 #: classes/WP_Piwik/Admin/Settings.php:218
 msgid "Track search"
-msgstr "Hou zoekopdrachten bij."
+msgstr "Παρακολούθηση της αναζήτησης"
 
 #: classes/WP_Piwik/Admin/Settings.php:218
 msgid "Use Piwik's advanced Site Search Analytics feature."
-msgstr ""
+msgstr "Να γίνεται χρήση του χαρακτηριστικού των προχωρημένων Αναλυτικών Αναζήτησης Ιστοτόπου."
 
 #: classes/WP_Piwik/Admin/Settings.php:220
 msgid "Track 404"
-msgstr "Hou 404 pagina's bij."
+msgstr "Παρακολούθηση 404"
 
 #: classes/WP_Piwik/Admin/Settings.php:220
 msgid ""
 "WP-Piwik can automatically add a 404-category to track 404-page-visits."
-msgstr ""
+msgstr "Το WP-Piwik μπορεί να προσθέτει αυτόματα μια 404-κατηγορία για να παρακολουθούνται οι επισκέψεις 404."
 
 #: classes/WP_Piwik/Admin/Settings.php:222
 msgid "Add annotation on new post"
-msgstr "Voeg annotatie toe aan een nieuw bericht."
+msgstr "Προσθήκη σχολιασμού σε νέα καταχώρηση"
 
 #: classes/WP_Piwik/Admin/Settings.php:222
 msgid "Add a Piwik annotation on each new post."
-msgstr ""
+msgstr "Προσθήκη ενός σχολιασμού Piwik σε κάθε νέα καταχώρηση."
 
 #: classes/WP_Piwik/Admin/Settings.php:224
 msgid "Show custom variables box"
-msgstr "Toon eigen variabelen box"
+msgstr "Εμφάνιση του κουτιού προσαρμοσμένων μεταβλητών"
 
 #: classes/WP_Piwik/Admin/Settings.php:224
 msgid " Show a &quot;custom variables&quot; edit box on post edit page."
-msgstr ""
+msgstr "Να εμφανίζεται ένα κουτί επεξεργασίας &quot;προσαρμοσμένων μεταβλητών&quot; στη σελίδα επεξεργασίας της καταχώρησης."
 
 #: classes/WP_Piwik/Admin/Settings.php:226
 msgid "Add new file types for download tracking"
-msgstr ""
+msgstr "Προσθήκη νέων τύπων αρχείων για την παρακολούθηση των κατεβασμάτων"
 
 #: classes/WP_Piwik/Admin/Settings.php:226
 msgid ""
 "Add file extensions for download tracking, divided by a vertical bar "
 "(&#124;)."
-msgstr ""
+msgstr "Προσθήκη επεκτάσεων αρχείων για την παρακολούθηση των κατεβασμάτων, χωρισμένα με τον χαρακτήρας της κάθετης μπάρας (&#124;)."
 
 #: classes/WP_Piwik/Admin/Settings.php:228
 msgid "Disable cookies"
-msgstr "Schakel cookies uit."
+msgstr "Απενεργοποίηση των cookies"
 
 #: classes/WP_Piwik/Admin/Settings.php:228
 msgid "Disable all tracking cookies for a visitor."
-msgstr ""
+msgstr "Απενεργοποίηση όλων των cookies παρακολούθησης για ένα επισκέπτη."
 
 #: classes/WP_Piwik/Admin/Settings.php:230
 msgid "Limit cookie lifetime"
-msgstr "Beperk cookie levensduur"
+msgstr "Περιορισμός του χρόνου ζωής των cookies"
 
 #: classes/WP_Piwik/Admin/Settings.php:230
 msgid ""
 "You can limit the cookie lifetime to avoid tracking your users over a longer"
 " period as necessary."
-msgstr ""
+msgstr "Μπορείτε να περιορίσετε το χρονικό όριο ισχύος των cookies για να μην παρακολουθείτετους χρήστες σας για ένα συγκεκριμένο χρονικό διάστημα όπως απαιτείται."
 
 #: classes/WP_Piwik/Admin/Settings.php:232
 msgid "Visitor timeout (seconds)"
-msgstr "Bezoekers timeout (in seconden)"
+msgstr "Χρόνος λήξης επισκεπτών (δευτερόλεπτα)"
 
 #: classes/WP_Piwik/Admin/Settings.php:234
 msgid "Session timeout (seconds)"
-msgstr "Sessie timeout (in seconden)"
+msgstr "Χρόνος λήξης συνόδου (δευτερόλεπτα)"
 
 #: classes/WP_Piwik/Admin/Settings.php:236
 msgid "Referral timeout (seconds)"
-msgstr ""
+msgstr "Χρονικό όριο αναφορέα (δευτερόλεπτα)"
 
 #: classes/WP_Piwik/Admin/Settings.php:238
 msgid "Track admin pages"
-msgstr ""
+msgstr "Παρακολούθηση των σελίδων διαχείρισης"
 
 #: classes/WP_Piwik/Admin/Settings.php:238
 msgid ""
 "Enable to track users on admin pages (remember to configure the tracking "
 "filter appropriately)."
-msgstr ""
+msgstr "Ενεργοποιήστε για να παρακολουθείτε τους χρήστες στις σελίδες διαχείρισης (θυμηθείτε να ρυθμίσετε ανάλογα το φίλτρο παρακολούθησης)."
 
 #: classes/WP_Piwik/Admin/Settings.php:241
 msgid "Tracking filter"
-msgstr "Tracking filter"
+msgstr "Φίλτρο Παρακολούθησης"
 
 #: classes/WP_Piwik/Admin/Settings.php:245
 msgid "Choose users by user role you do <strong>not</strong> want to track."
-msgstr "Selecteer gebruikers op basis van het gebruikersniveau die je <strong>niet</ strong> wilt bijhouden."
+msgstr "Επιλέξτε το ρόλο χρήστη, τον οποίο <strong>δε</strong> θέλετε να παρακολουθήσετε."
 
 #: classes/WP_Piwik/Admin/Settings.php:247
 msgid "Track subdomains in the same website"
-msgstr ""
+msgstr "Να παρακολουθούνται τα υπο-ονόματα χώρου στον ίδιο ιστοτόπο"
 
 #: classes/WP_Piwik/Admin/Settings.php:247
 msgid "Adds *.-prefix to cookie domain."
-msgstr ""
+msgstr "Προσθέτει την κατάληξη *.-prefix στα cookies ονομάτων χώρου."
 
 #: classes/WP_Piwik/Admin/Settings.php:249
 msgid "Do not count subdomains as outlink"
-msgstr ""
+msgstr "Να μην μετρώνται τα υπο-ονόματα χώρου ως εξωτερικοί σύνδεσμοι"
 
 #: classes/WP_Piwik/Admin/Settings.php:249
 msgid "Adds *.-prefix to tracked domain."
@@ -603,7 +603,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:251
 msgid "Track RSS feeds"
-msgstr "Hou RSS feeds bij"
+msgstr "Παρακολούθηση των δεδομένων ροών RSS"
 
 #: classes/WP_Piwik/Admin/Settings.php:251
 msgid "Enable to track posts in feeds via tracking pixel."
@@ -615,11 +615,11 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:255
 msgid "RSS feed campaign"
-msgstr "RSS feed campagne"
+msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:255
 msgid "Keyword: post name."
-msgstr "Sleutelwoord: post naam."
+msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:260
 msgid ""
@@ -629,7 +629,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:262
 msgid "Enable cache"
-msgstr "Schakel cache in"
+msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:262
 msgid "Cache API calls, which not contain today's values, for a week."
@@ -637,7 +637,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:265
 msgid "HTTP connection via"
-msgstr "HTTP connectie via:"
+msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:266
 #: classes/WP_Piwik/Admin/Settings.php:568
@@ -657,7 +657,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:270
 msgid "HTTP method"
-msgstr "HTTP methode"
+msgstr "Μέθοδος HTTP"
 
 #: classes/WP_Piwik/Admin/Settings.php:271
 #: classes/WP_Piwik/Admin/Settings.php:568
@@ -675,7 +675,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:275
 msgid "Disable time limit"
-msgstr "Schakel tijdslimiet uit"
+msgstr "Απενεργοποίηση χρονικού ορίου"
 
 #: classes/WP_Piwik/Admin/Settings.php:275
 msgid "Use set_time_limit(0) if stats page causes a time out."
@@ -683,7 +683,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:277
 msgid "Connection timeout"
-msgstr ""
+msgstr "Χρονικό όριο"
 
 #: classes/WP_Piwik/Admin/Settings.php:279
 msgid "Disable SSL peer verification"
@@ -691,11 +691,11 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:279
 msgid "not recommended"
-msgstr ""
+msgstr "δε συνίσταται"
 
 #: classes/WP_Piwik/Admin/Settings.php:281
 msgid "User agent"
-msgstr ""
+msgstr "Πρόγραμμα πελάτης"
 
 #: classes/WP_Piwik/Admin/Settings.php:282
 msgid "Use the PHP default user agent"
@@ -769,7 +769,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:465
 msgid "If you like WP-Piwik, you can support its development by a donation:"
-msgstr ""
+msgstr "Αν σας αρέσει το WP-Piwik, μπορείτε να στηρίξετε την ανάπτυξή του με μια δωρεά:"
 
 #: classes/WP_Piwik/Admin/Settings.php:503
 msgid "My Amazon.de wishlist"
@@ -782,7 +782,7 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:537
 msgid "Thank you very much for your donation"
-msgstr ""
+msgstr "Ευχαριστώ για τις δωρεές"
 
 #: classes/WP_Piwik/Admin/Settings.php:537
 msgid "the Piwik team itself"
@@ -810,24 +810,24 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Settings.php:541
 msgid "Thank you very much"
-msgstr ""
+msgstr "Ευχαριστώ πολύ"
 
 #: classes/WP_Piwik/Admin/Settings.php:541
 msgid "for your translation work"
-msgstr ""
+msgstr "για τη μετάφραση"
 
 #: classes/WP_Piwik/Admin/Settings.php:542
 msgid ""
 "Thank you very much, all users who send me mails containing criticism, "
 "commendation, feature requests and bug reports! You help me to make WP-Piwik"
 " much better."
-msgstr ""
+msgstr "Σας ευχαριστώ πολύ, όλους τους χρήστες που μου στείλατε μηνύματα που περιέχουν κριτική, επιδοκιμασία, αιτήματα για νέες λειτουργίες και αναφορές σφαλμάτων! Βοηθάτε να γίνει το WP-piwik πολύ καλύτερο."
 
 #: classes/WP_Piwik/Admin/Settings.php:543
 msgid ""
 "Thank <strong>you</strong> for using my plugin. It is the best commendation "
 "if my piece of code is really used!"
-msgstr ""
+msgstr "<strong>Σας ευχαριστώ</ strong> για τη χρήση του plugin μου. Είναι ο καλύτερος έπαινος, αν ο κώδικάς μου χρησιμοποιείται πραγματικά!"
 
 #: classes/WP_Piwik/Admin/Settings.php:552
 msgid "The best place to get help:"
@@ -922,67 +922,67 @@ msgstr ""
 
 #: classes/WP_Piwik/Admin/Sitebrowser.php:29
 msgid "Blog ID"
-msgstr ""
+msgstr "Αναγνωριστικό ιστολογήματος"
 
 #: classes/WP_Piwik/Admin/Sitebrowser.php:30
 msgid "Title"
-msgstr ""
+msgstr "Τίτλος"
 
 #: classes/WP_Piwik/Admin/Sitebrowser.php:31
 msgid "URL"
-msgstr ""
+msgstr "Διεύθυνση URL"
 
 #: classes/WP_Piwik/Admin/Sitebrowser.php:32
 msgid "Site ID (Piwik)"
-msgstr ""
+msgstr "Αναγνωριστικό ιστοτόπου (Piwik)"
 
 #: classes/WP_Piwik/Admin/Sitebrowser.php:79
 msgid "Site not created yet."
-msgstr ""
+msgstr "Ο ιστοτόπος δεν έχει ακόμη δημιουργηθεί."
 
 #: classes/WP_Piwik/Admin/Statistics.php:12
 msgid "Statistics"
-msgstr ""
+msgstr "Στατιστικά"
 
 #: classes/WP_Piwik/Admin/Statistics.php:20
 msgid "Currently shown stats:"
-msgstr "Momenteel weergegeven statistieken:"
+msgstr "Τρέχουσα προβολή στατιστικών:"
 
 #: classes/WP_Piwik/Request/Php.php:25
 msgid "Could not resolve"
-msgstr ""
+msgstr "Δεν ήταν δυνατή η επίλυση"
 
 #: classes/WP_Piwik/Request/Php.php:25
 msgid "realpath() returns false"
-msgstr ""
+msgstr "Το realpath() επιστρέφει ψευδές"
 
 #: classes/WP_Piwik/Request/Php.php:32
 msgid "Class Piwik\\FrontController does not exists."
-msgstr ""
+msgstr "Δεν υπάρχει η κλάση Piwik\\FrontController."
 
 #: classes/WP_Piwik/Request/Php.php:35
 msgid "Class Piwik\\API\\Request does not exists."
-msgstr ""
+msgstr "Δεν υπάρχει η κλάση Piwik\\API\\Request."
 
 #: classes/WP_Piwik/Template/MetaBoxCustomVars.php:10
 msgid "Piwik Custom Variables"
-msgstr ""
+msgstr "Προσαρμοσμένες Μεταβλητές του Piwik"
 
 #: classes/WP_Piwik/Template/MetaBoxCustomVars.php:21
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: classes/WP_Piwik/Template/MetaBoxCustomVars.php:21
 msgid "Value"
-msgstr ""
+msgstr "Τιμή"
 
 #: classes/WP_Piwik/Template/MetaBoxCustomVars.php:30
 msgid "Set custom variables for a page view"
-msgstr ""
+msgstr "Ορισμός προσαρμοσμένων μεταβλητών για εμφάνιση σελίδας"
 
 #: classes/WP_Piwik/Widget/BrowserDetails.php:16
 msgid "Browser Details"
-msgstr ""
+msgstr "Λεπτομέρειες προγράμματος πλοήγησης"
 
 #: classes/WP_Piwik/Widget/BrowserDetails.php:35
 #: classes/WP_Piwik/Widget/Browsers.php:35
@@ -996,7 +996,7 @@ msgstr ""
 #: classes/WP_Piwik/Widget/Systems.php:33
 #: classes/WP_Piwik/Widget/Visitors.php:35 classes/WP_Piwik/Widget.php:91
 msgid "Piwik error"
-msgstr ""
+msgstr "Σφάλμα του Piwik"
 
 #: classes/WP_Piwik/Widget/BrowserDetails.php:37
 #: classes/WP_Piwik/Widget/Browsers.php:37
@@ -1010,7 +1010,7 @@ msgstr "Browser"
 #: classes/WP_Piwik/Widget/Systems.php:35
 #: classes/WP_Piwik/Widget/Visitors.php:57 classes/WP_Piwik/Widget.php:100
 msgid "Unique"
-msgstr "Uniek"
+msgstr "Μοναδικοί"
 
 #: classes/WP_Piwik/Widget/BrowserDetails.php:37
 #: classes/WP_Piwik/Widget/Browsers.php:37
@@ -1019,7 +1019,7 @@ msgstr "Uniek"
 #: classes/WP_Piwik/Widget/SystemDetails.php:35
 #: classes/WP_Piwik/Widget/Systems.php:35
 msgid "Percent"
-msgstr "Procent"
+msgstr "Τοις εκατό"
 
 #: classes/WP_Piwik/Widget/BrowserDetails.php:64
 #: classes/WP_Piwik/Widget/Browsers.php:64
@@ -1027,121 +1027,121 @@ msgstr "Procent"
 #: classes/WP_Piwik/Widget/SystemDetails.php:62
 #: classes/WP_Piwik/Widget/Systems.php:62
 msgid "Others"
-msgstr "Andere"
+msgstr "Άλλοι"
 
 #: classes/WP_Piwik/Widget/Browsers.php:16
 msgid "Browsers"
-msgstr ""
+msgstr "Προγράμματα πλοήγησης"
 
 #: classes/WP_Piwik/Widget/Chart.php:17
 #: classes/WP_Piwik/Widget/Overview.php:40 classes/WP_Piwik/Widget/Post.php:37
 #: classes/WP_Piwik/Widget/Visitors.php:17
 msgid "Visitors"
-msgstr "Bezoekers"
+msgstr "Επισκέπτες"
 
 #: classes/WP_Piwik/Widget/Chart.php:69
 msgid ""
 "The graph contains the values shown in the table below (visitors / unique / "
 "bounces). The red line show a linear trendline (unique)."
-msgstr ""
+msgstr "Το γράφημα περιέχει τις τιμές που εμφανίζονται στον παρακάτω πίνακα (επισκέπτες / μοναδικοί / αναπηδήσεις). Η κόκκινη γραμμή εμφανίζει μια γραμμική τάση (μοναδικοί)."
 
 #: classes/WP_Piwik/Widget/Keywords.php:16
 msgid "Keywords"
-msgstr "Keywords"
+msgstr "Λέξεις κλειδιά"
 
 #: classes/WP_Piwik/Widget/Noresult.php:16
 #: classes/WP_Piwik/Widget/Search.php:16
 msgid "Site Search"
-msgstr ""
+msgstr "Αναζήτηση ιστοτόπου"
 
 #: classes/WP_Piwik/Widget/Noresult.php:25
 #: classes/WP_Piwik/Widget/Search.php:25
 msgid "Keyword"
-msgstr "Keyword"
+msgstr "Λέξη κλειδί"
 
 #: classes/WP_Piwik/Widget/Noresult.php:25
 #: classes/WP_Piwik/Widget/Search.php:25
 msgid "Requests"
-msgstr ""
+msgstr "Αιτήσεις"
 
 #: classes/WP_Piwik/Widget/Noresult.php:25
 #: classes/WP_Piwik/Widget/Search.php:25
 #: classes/WP_Piwik/Widget/Visitors.php:57
 msgid "Bounced"
-msgstr "Bounced"
+msgstr "Εγκατέλειψαν"
 
 #: classes/WP_Piwik/Widget/Overview.php:17 classes/WP_Piwik/Widget/Post.php:18
 msgid "Overview"
-msgstr "Overzicht"
+msgstr "Επισκόπηση"
 
 #: classes/WP_Piwik/Widget/Overview.php:41 classes/WP_Piwik/Widget/Post.php:38
 msgid "Unique visitors"
-msgstr "Unieke bezoekers"
+msgstr "Μοναδικοί επισκέπτες"
 
 #: classes/WP_Piwik/Widget/Overview.php:42 classes/WP_Piwik/Widget/Post.php:39
 msgid "Page views"
-msgstr "Pageviews"
+msgstr "Προβολές σελίδων"
 
 #: classes/WP_Piwik/Widget/Overview.php:43 classes/WP_Piwik/Widget/Post.php:40
 msgid "Total time spent"
-msgstr ""
+msgstr "Συνολικός χρόνος"
 
 #: classes/WP_Piwik/Widget/Overview.php:44 classes/WP_Piwik/Widget/Post.php:42
 msgid "Bounce count"
-msgstr "Aantal weigeringen"
+msgstr "Αριθμός που εγκατέλειψαν"
 
 #: classes/WP_Piwik/Widget/Overview.php:47 classes/WP_Piwik/Widget/Post.php:41
 msgid "Time/visit"
-msgstr ""
+msgstr "Χρόνος/Επίσκεψη"
 
 #: classes/WP_Piwik/Widget/Overview.php:47
 msgid "Max. page views in one visit"
-msgstr "Max. Pageviews/Bezoek"
+msgstr "Ανώτατο όριο προβολών σελίδων σε μια επίσκεψη"
 
 #: classes/WP_Piwik/Widget/Overview.php:48 classes/WP_Piwik/Widget/Post.php:46
 msgid "Shortcut"
-msgstr "Snelkoppeling"
+msgstr "Συντόμευση"
 
 #: classes/WP_Piwik/Widget/Pages.php:16
 msgid "Pages"
-msgstr ""
+msgstr "Σελίδες"
 
 #: classes/WP_Piwik/Widget/Plugins.php:16
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: classes/WP_Piwik/Widget/Plugins.php:25
 msgid "Plugin"
-msgstr ""
+msgstr "Πρόσθετο"
 
 #: classes/WP_Piwik/Widget/Plugins.php:25
 #: classes/WP_Piwik/Widget/Visitors.php:57 classes/WP_Piwik/Widget.php:102
 msgid "Visits"
-msgstr "Bezoeken"
+msgstr "Επισκέψεις"
 
 #: classes/WP_Piwik/Widget/Post.php:43
 msgid "Min. generation time"
-msgstr ""
+msgstr "Ελάχιστος χρόνος δημιουργίας"
 
 #: classes/WP_Piwik/Widget/Post.php:44
 msgid "Max. generation time"
-msgstr ""
+msgstr "Μέγιστος χρόνος δημιουργίας"
 
 #: classes/WP_Piwik/Widget/Referrers.php:16
 msgid "Referrers"
-msgstr ""
+msgstr "Αναφορείς"
 
 #: classes/WP_Piwik/Widget/Screens.php:16
 msgid "Resolutions"
-msgstr ""
+msgstr "Αναλύσεις"
 
 #: classes/WP_Piwik/Widget/Screens.php:37
 msgid "Resolution"
-msgstr "Resolutie"
+msgstr "Ανάλυση"
 
 #: classes/WP_Piwik/Widget/Seo.php:13
 msgid "SEO"
-msgstr ""
+msgstr "SEO"
 
 #: classes/WP_Piwik/Widget/SystemDetails.php:14
 msgid "Operation System Details"
@@ -1150,63 +1150,63 @@ msgstr ""
 #: classes/WP_Piwik/Widget/SystemDetails.php:35
 #: classes/WP_Piwik/Widget/Systems.php:35
 msgid "Operation System"
-msgstr ""
+msgstr "Σύστημα ενέργειας"
 
 #: classes/WP_Piwik/Widget/Systems.php:14
 msgid "Operation Systems"
-msgstr ""
+msgstr "Συστήματα ενεργειών"
 
 #: classes/WP_Piwik/Widget/Visitors.php:57
 msgid "Date"
-msgstr "Datum"
+msgstr "Ημερομηνία"
 
 #: classes/WP_Piwik/Widget/Visitors.php:57
 msgid "Page Views"
-msgstr ""
+msgstr "Εμφανίσεις σελίδας"
 
 #: classes/WP_Piwik/Widget.php:104
 msgid "Hits"
-msgstr ""
+msgstr "Επισκέψεις"
 
 #: classes/WP_Piwik/Widget.php:106
 msgid "Actions"
-msgstr ""
+msgstr "Ενέργειες"
 
 #: classes/WP_Piwik/Widget.php:162
 msgid "No data available."
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμα στοιχεία."
 
 #: classes/WP_Piwik/Widget.php:293
 msgid "week"
-msgstr ""
+msgstr "εβδομάδα"
 
 #: classes/WP_Piwik.php:193
 msgid "%s %s installed."
-msgstr ""
+msgstr "Το %s %s εγκαταστάθηκε."
 
 #: classes/WP_Piwik.php:193
 msgid "Next you should connect to Piwik"
-msgstr ""
+msgstr "Στη συνέχεια συνδεθείτε με Piwik"
 
 #: classes/WP_Piwik.php:223
 msgid "%s updated to %s."
-msgstr ""
+msgstr "Το %s ενημερώθηκε σε %s."
 
 #: classes/WP_Piwik.php:223
 msgid "Please validate your configuration"
-msgstr ""
+msgstr "Παρακαλώ επαληθεύστε τη διαμόρφωση"
 
 #: classes/WP_Piwik.php:255 classes/WP_Piwik.php:477
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "Ρυθμίσεις"
 
 #: classes/WP_Piwik.php:258
 msgid "Important"
-msgstr ""
+msgstr "Σημαντικό"
 
 #: classes/WP_Piwik.php:339 classes/WP_Piwik.php:361
 msgid "Piwik Statistics"
-msgstr "Piwik Statistieken"
+msgstr "Piwik Στατιστικά"
 
 #: classes/WP_Piwik.php:449
 msgid "Configure WP-Piwik"
@@ -1214,17 +1214,17 @@ msgstr ""
 
 #: classes/WP_Piwik.php:919
 msgid "An error occured"
-msgstr "Een fout is opgetreden"
+msgstr "Παρουσιάστηκε σφάλμα"
 
 #: classes/WP_Piwik.php:1185
 msgid "Cheatin&#8217; uh?"
-msgstr ""
+msgstr "Κλέβεις, έτσι;"
 
 #: wp-piwik.php:60
 msgid ""
 "WP-Piwik requires at least PHP 5.3. You are using the deprecated version %s."
 " Please update PHP to use WP-Piwik."
-msgstr ""
+msgstr "Το WP-Piwik απαιτεί τουλάχιστον PHP 5.3. Χρησιμοποιείτε την παρωχημένη έκδοση %s. Παρακαλώ αναβαθμίστε την PHP για να εκτελείται το WP-Piwik."
 
 #. Plugin Name of the plugin/theme
 msgid "WP-Piwik"
@@ -1232,7 +1232,7 @@ msgstr "WP-Piwik"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wordpress.org/extend/plugins/wp-piwik/"
-msgstr ""
+msgstr "http://wordpress.org/extend/plugins/wp-piwik/"
 
 #. Description of the plugin/theme
 msgid ""
